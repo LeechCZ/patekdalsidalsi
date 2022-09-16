@@ -23,7 +23,7 @@ public class Main {
         String[] splitted = userInputSentence.split(" ");
         int count = 0;
         for (String s : splitted) {
-            if (s.equals(userInputCharseq)){
+            if (s.contains(userInputCharseq)){
                 count++;
             }
         }
